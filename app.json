@@ -1,0 +1,24 @@
+{
+    "name": "hubot",
+    "description": "Hubot is your company's robot. Install him in your company to dramatically improve and reduce employee efficiency.",
+    "website": "https://hubot.github.com/",
+    "repository": "https://github.com/github/hubot",
+    "logo": "https://www.google.ca/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAQQjRw&url=http%3A%2F%2Fwww.appneta.com%2Fblog%2Fhubot-appneta-appneta-hubot%2F&ei=0lk3VPOGO4vgoASvpYKIBQ&bvm=bv.77161500,d.cGU&psig=AFQjCNGLv377TWwOryvi2O8Mr7P-XYa4kw&ust=1413000019011239",
+    "success_url": "",
+    "keywords": [
+        "chat",
+        "bot"
+    ],
+    "scripts": {
+        "postdeploy": ""
+    },
+    "addons": [
+        "rediscloud"
+    ],
+    "env": {
+        "HEROKU_URL": {
+            "description": "Your applications URL, no trailing slash",
+            "value": "https://YOURAPPNAME.herokuapp.com"
+        }
+    }
+}
