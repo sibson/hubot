@@ -1,0 +1,21 @@
+{
+    "name": "hubot",
+    "description": "Hubot is your company's robot. Install him in your company to dramatically improve and reduce employee efficiency.",
+    "website": "https://hubot.github.com/",
+    "repository": "https://github.com/github/hubot",
+    "logo": "https://avatars0.githubusercontent.com/u/5367660?v=2&s=200",
+    "success_url": "/",
+    "keywords": [
+        "chat",
+        "bot"
+    ],
+    "addons": [
+        "rediscloud"
+    ],
+    "env": {
+        "HEROKU_URL": {
+            "description": "Your applications URL, no trailing slash",
+            "value": "https://YOURAPPNAME.herokuapp.com"
+        }
+    }
+}

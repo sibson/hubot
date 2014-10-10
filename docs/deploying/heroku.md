@@ -3,6 +3,8 @@
 If you've been following along with [Getting Started](../README.md), it's time to deploy so you can use it beyond just your local machine.
 [Heroku](http://www.heroku.com/) is an easy and supported way to deploy hubot.
 
+The quickest way to get going is [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/sibson/hubot) <-- click.  You can then configure your environment variables via the [Heroku Dashboard](http://dashboard.heroku.com).  Otherwise, you can follow the instructions below.
+
 Install the [Heroku Toolbelt](https://toolbelt.heroku.com/) to start, then follow their 'Getting Started' instructions, including logging in the first time:
 
     % heroku login
